@@ -4,6 +4,7 @@ import './App.css';
 import { robots } from './robots';
 import SearchBox from './SearchBox';
 import Cardlist from './Cardlist';
+import Scroll from './Scroll';
 
 // function App() {
 //   return (
@@ -63,7 +64,9 @@ class App extends Component {
           <div className='tc'>
             <h1>Robofriends</h1>
             <SearchBox searchChange={this.onSearchChange} /> {/*as all is inside app object class, you need to do this.whateverNAme*/}
-            <Cardlist robots={filteredRobots} /> {/*here robots is state but cardlist will receive as props*/}
+            <Scroll>
+              <Cardlist robots={filteredRobots} /> {/*here robots is state but cardlist will receive as props*/}
+            </Scroll>
           </div>
           <a
             className="App-link"
