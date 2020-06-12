@@ -5,6 +5,7 @@ import { robots } from '../robots';
 import SearchBox from '../components/SearchBox';
 import Cardlist from '../components/Cardlist';
 import Scroll from '../components/Scroll';
+import ErrorBoundry from '../components/ErrorBoundry';
 
 // function App() {
 //   return (
@@ -68,7 +69,9 @@ class App extends Component {
               <h1>Robofriends</h1>
               <SearchBox searchChange={this.onSearchChange} /> {/*as all is inside app object class, you need to do this.whateverNAme*/}
               <Scroll>
-                <Cardlist robots={filteredRobots} /> {/*here robots is state but cardlist will receive as props*/}
+                <ErrorBoundry>
+                  <Cardlist robots={filteredRobots} /> {/*here robots is state but cardlist will receive as props*/}
+                </ErrorBoundry>
               </Scroll>
             </div>
             <a

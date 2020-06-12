@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import ErrorBoundry from './ErrorBoundry';
 
 /*
 const Cardlist = ({robots}) => {
@@ -24,6 +25,9 @@ export default Cardlist;
 
 */
 const Cardlist = ({ robots }) => {
+    if (true) {
+        throw new Error('Nooo!');
+    }
     return (
         <div>
             {
