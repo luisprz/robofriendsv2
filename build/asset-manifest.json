@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/robofriendstest/static/css/main.5f361e03.chunk.css",
+    "main.js": "/robofriendstest/static/js/main.b1aa57dc.chunk.js",
+    "main.js.map": "/robofriendstest/static/js/main.b1aa57dc.chunk.js.map",
+    "runtime-main.js": "/robofriendstest/static/js/runtime-main.a7488d55.js",
+    "runtime-main.js.map": "/robofriendstest/static/js/runtime-main.a7488d55.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/robofriendstest/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.88e0f59c.chunk.js": "/robofriendstest/static/js/2.88e0f59c.chunk.js",
+    "static/js/2.88e0f59c.chunk.js.map": "/robofriendstest/static/js/2.88e0f59c.chunk.js.map",
+    "index.html": "/robofriendstest/index.html",
+    "precache-manifest.794ef3c9e89d3054d0ee83398f23dc0e.js": "/robofriendstest/precache-manifest.794ef3c9e89d3054d0ee83398f23dc0e.js",
+    "service-worker.js": "/robofriendstest/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/robofriendstest/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/robofriendstest/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.88e0f59c.chunk.js.LICENSE.txt": "/robofriendstest/static/js/2.88e0f59c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/robofriendstest/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7488d55.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.88e0f59c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b1aa57dc.chunk.js"
+  ]
+}
