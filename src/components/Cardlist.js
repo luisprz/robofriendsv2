@@ -25,9 +25,9 @@ export default Cardlist;
 
 */
 const Cardlist = ({ robots }) => {
-    if (true) {
+/*     if (true) {
         throw new Error('Nooo!');
-    }
+    } */
     return (
         <div>
             {
