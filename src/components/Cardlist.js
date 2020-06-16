@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import ErrorBoundry from './ErrorBoundry';
+//import ErrorBoundry from './ErrorBoundry';
 
 /*
 const Cardlist = ({robots}) => {
@@ -31,14 +31,14 @@ const Cardlist = ({ robots }) => {
     return (
         <div>
             {
-                robots.map((username, i) => {
+                robots.map((user, i) => {
                     return (
                         <Card
                             key={robots[i].id}
                             id={robots[i].id}
                             username={robots[i].username}
                             email={robots[i].email}
-                            name= {robots[i].name}
+                            name={robots[i].name}
                         />
                     ); //index.js:1 Warning: Each child in a list should have a unique "key" prop. Esto hace que al borrar algo solo se rendee esa parte y no toda la pagina
                 })

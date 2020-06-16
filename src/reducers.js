@@ -1,4 +1,4 @@
-import { object } from "prop-types";
+//import { object } from "prop-types";
 import {
     CHANGE_SEARCH_FIELD,
     REQUEST_ROBOTS_PENDING,

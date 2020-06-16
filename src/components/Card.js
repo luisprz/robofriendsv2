@@ -10,8 +10,8 @@ const Card = ({ username, email, id, name }) => { //pasas props como propiedades
                 <div>
                     <p>{id}</p>
                     <p>{name}</p>
-                    <p>{email}</p>
-                    <h2>{username}</h2>
+                    {/* <p>{email}</p>
+                    <h2>{username}</h2> */}
                     
                 </div>
             </div>
